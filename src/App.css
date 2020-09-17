@@ -1,7 +1,8 @@
+
 .App {
   text-align: center;
-}
 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +37,45 @@
     transform: rotate(360deg);
   }
 }
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slick-prev {
+  left: 10% !important;
+  z-index: 1;
+  background:#bfbfbf !important;
+}
+.slick-next {
+  right: 10% !important;
+  z-index: 1;
+  background:#bfbfbf !important;
+}
+
+a.navbar-brand{
+  font-size: 16px;
+}
+a.nav-link{
+  font-size: 16px;
+  color:rgba(0,0,0,0.9) !important;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-brand
+ {
+    margin-left: 5rem ;
+    margin-right: 15rem;   
+  }
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link:nth-of-type(2)
+ {
+    margin-left:55em; 
+    margin-right:15em;   
+  }
+}
+
+
